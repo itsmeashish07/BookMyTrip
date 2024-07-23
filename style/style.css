@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-brand {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 2vh;
+}
+
+.content {
+    width: 100rem;
+    color: antiquewhite;
+}
+
+
+.never {
+    color: white;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-size: -webkit-xxx-large;
+}
+
+
+.explor {
+    color: #ffffff;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    margin-top: 1vh;
+    font-weight: 700;
+    /* font-style: normal; */
+    font-size: 9vh;
+}
+
+.Trip {
+    color: #e2e2e2;
+    font-size: larger;
+    font-family: cursive;
+    margin-top: 3vh;
+}
+
+
+
+
+
+
+
+.never,
+.explor {
+    font-size: 3vh;
+    /* Adjust the font size for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .never {
+        font-size: 5vh;
+        /* Increase the font size for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .explor {
+        font-size: 8vh;
+        /* Increase the font size for larger screens */
+    }
+}
+
+@media (max-width: 991px) {
+    .home .box {
+        padding: 2rem;
+        justify-content: center;
+        background-position: right !important;
+    }
+}
+
+.box {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: flex-end;
+    padding: 2rem 9%;
+}
+
+.btn-er {
+    color: #1e2220de;
+    border-color: #0c0c0edb;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+    border-radius: 5px;
+}
+
+
+
+.text-center {
+    /* text-align: center; */
+    margin-top: 4vh;
+    font-size: 6vh;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+
+.row {
+    justify-content: center;
+}
+
+
+.heading {
+    margin: 6vh;
+    font-size: 18vh;
+    /* font-family: "Satisfy", cursive; */
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    /* font-style: normal; */
+    color: #0000006e;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vh;
+}
+
+.box {
+    /* width: 30%; */
+    margin: 1vh;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: #ffffff;
+}
