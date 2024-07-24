@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 .navbar-brand {
     font-family: "Satisfy", cursive;
@@ -120,14 +121,10 @@
 
 
 .heading {
-    margin: 6vh;
-    font-size: 18vh;
-    /* font-family: "Satisfy", cursive; */
-    /* font-optical-sizing: auto; */
-    font-weight: 400;
-    /* font-style: normal; */
-    color: #0000006e;
-    text-align: center;
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center !important;
 }
 
 .box-container {
@@ -144,4 +141,28 @@
     /* border: 1px solid #ccc; */
     border-radius: 5px;
     background-color: #ffffff;
+}
+
+.Our-plans {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center !important;
+    margin-top: 4vh;
+    margin-bottom: .5rem;
+}
+
+
+.carousel-item img {
+    border-radius: 8px;
+}
+ 
+.beach-text,
+.treaking-text,
+.manali-text {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-size: 4rem; /* Example: Using rem unit instead of vh */
+    font-style: normal;
+    color: #f2fbff;
 }
