@@ -162,7 +162,14 @@
 .manali-text {
     font-family: "Allura", cursive;
     font-weight: 400;
-    font-size: 4rem; /* Example: Using rem unit instead of vh */
+    font-size: 8rem; /* Example: Using rem unit instead of vh */
     font-style: normal;
     color: #f2fbff;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: larger;
 }
